@@ -1,0 +1,133 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h5{
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #212529;
+}
+
+p{
+    color: #707070;
+    font-weight: 200;
+}
+.success{
+    background-color: #28A745;
+}
+
+.card-link a{
+    float: right;
+    margin: 6px;
+}
+.card{
+    margin: auto;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    border-top: 1px solid rgba(0,0,0,.125);
+    border-top: 1px solid black;
+    
+}
+.navbar-brand img{
+    width: 38%;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+}
+
+
+.form-section{
+    color: #fff;
+    background-color: #28A745;
+    text-align: center;
+}
+
+.form-section h5{
+    color: #fff;
+    margin: 20px;
+}
+
+.icons-section h2{
+    margin: 30px;
+    text-align: center;
+    margin-top: 46px;
+
+}
+
+.icons-section .fab{
+   font-size: 3em; 
+   margin-top: 46px;
+}
+
+
+
+.footer img{
+    margin: auto;
+    display: block;
+    width: 18%;
+ 
+}
+
+.custom-toggler .navbar-toggler-icon {
+   color: #fff;
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+  } 
+
+  .precios{
+      text-align: right;
+  }
+
+  .precios p{
+      display: inline-block;
+      margin: 10px;
+  }
+
+  .precios h4{
+      color: #28A745;
+      display: inline-block;
+      margin: 10px;
+
+  }
+
+  .card>hr{
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+
+  @media screen and (max-width: 768px){
+
+    .card{
+        width: 14rem !important;
+    }
+
+  }
+
+  @media screen and (max-width: 414px){
+      .card{
+          margin-bottom: 30px !important;
+          width: 18rem !important;
+      }
+
+      .footer img{
+        margin: auto;
+        display: block;
+        width: 41%;
+     
+    }
+  }
